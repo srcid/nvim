@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'morhetz/gruvbox'

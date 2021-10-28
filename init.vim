@@ -1,15 +1,11 @@
 call plug#begin()
 Plug 'preservim/nerdtree'
-Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
+Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 call plug#end()
 
 let mapleader="\<space>"
-
-" Set gruvbox as theme an background to dark
-colorscheme gruvbox
-set background=dark
 
 set hidden " permite a edição de multiplos arquivos
 set relativenumber
@@ -28,3 +24,6 @@ nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+" Enable gruvbox theme
+autocmd vimenter * ++nested colorscheme gruvbox

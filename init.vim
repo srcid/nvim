@@ -21,9 +21,6 @@ set softtabstop=2
 set shiftwidth=2
 set inccommand=split " Preview of commands like substituion
 
-nnoremap <c-p> :Files<cr>
-nnoremap <c-f> :Ag<space>
-
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 

@@ -27,5 +27,10 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
+nnoremap <C-Right> <C-w><Right>
+nnoremap <C-Left> <C-w><Left>
+nnoremap <C-Up> <C-w><Up>
+nnoremap <C-Down> <C-w><Down>
+
 " Enable gruvbox theme
 autocmd vimenter * ++nested colorscheme gruvbox

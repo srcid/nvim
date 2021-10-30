@@ -9,6 +9,7 @@ Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 let mapleader="\<space>"
+let g:fzf_layout = { 'down': '~40%' }
 
 set hidden " permite a edição de multiplos arquivos
 set relativenumber

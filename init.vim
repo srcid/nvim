@@ -34,5 +34,8 @@ nnoremap <C-Left> <C-w><Left>
 nnoremap <C-Up> <C-w><Up>
 nnoremap <C-Down> <C-w><Down>
 
+nnoremap <A-Up> :m-2<CR>
+nnoremap <A-Down> :m+1<CR>
+
 " Enable gruvbox theme
 autocmd vimenter * ++nested colorscheme gruvbox

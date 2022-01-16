@@ -19,6 +19,7 @@ set shiftwidth=2
 set inccommand=split " Preview of commands like substituion
 set path+=** " Adiciona os subdiretorios ao path
 set wildmenu
+set nowrap
 
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>

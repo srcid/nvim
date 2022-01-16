@@ -49,5 +49,6 @@ inoremap <A-Up> <Esc>:m .-2<CR>==gi
 inoremap <A-Down> <Esc>:m .+1<CR>==gi
 
 vnoremap <C-c> "+y
+nnoremap <C-v> "+p
 
 inoremap <C-Space> <C-x><C-f>

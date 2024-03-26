@@ -1,10 +1,16 @@
 call plug#begin()
-Plug 'tpope/vim-fugitive'
-Plug 'preservim/nerdtree'
-Plug 'sheerun/vim-polyglot'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+    Plug 'preservim/nerdtree'   " File tree
+    Plug 'morhetz/gruvbox'      " Theme
+    Plug 'sheerun/vim-polyglot' " More syntax highlight
+    Plug 'junegunn/fzf.vim'     " Fzf helper, skip the install step because I'm using from the system
 call plug#end()
+
+" Set theme
+colorscheme gruvbox
+set background=dark
+
+" Source fzf
+source /usr/share/doc/fzf/examples/fzf.vim
 
 let mapleader="\<space>"
 let g:fzf_layout = { 'down': '~40%' }

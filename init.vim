@@ -10,6 +10,7 @@ let mapleader="\<space>"
 let g:fzf_layout = { 'down': '~40%' }
 
 set hidden " permite a edição de multiplos arquivos
+set number
 set relativenumber
 set expandtab
 set autoindent
